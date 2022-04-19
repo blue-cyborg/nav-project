@@ -3,7 +3,7 @@ import './App.css';
 
 function Nav() {
   return (
-    <div className='nav'>
+    <nav>
         <h3>Logo</h3>
         <ul>
             <li>About</li>
@@ -12,7 +12,7 @@ function Nav() {
             <li>Signup</li>
             <li>Login</li>
         </ul>
-    </div>
+    </nav>
   );
 }
 
