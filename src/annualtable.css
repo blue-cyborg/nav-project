@@ -1,0 +1,13 @@
+.Table {
+    padding: 10px;
+}
+
+.Table .col {
+    border: 1px solid blue;
+    background-color: lightgoldenrodyellow;
+}
+
+.Table .name {
+    background-color: lightblue;
+    text-align: center;
+}

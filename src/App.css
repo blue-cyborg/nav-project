@@ -2,6 +2,37 @@
   text-align: center;
 }
 
+h1 {
+  padding: 25px;
+}
+
+h1,
+h2,
+h3,
+nav {
+  text-align: center;
+  font-family: "Paytone One", sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+section {
+  height: 65vh;
+}
+
+.jottings p {
+  text-align: left;
+}
+
+img {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
 nav{
   display: flex;
   justify-content: space-around;
