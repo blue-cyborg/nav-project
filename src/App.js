@@ -7,6 +7,7 @@ import Events from './Events';
 import Signup from './Signup';
 import Signin from './Signin';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import "./hero.css";
 
 function App() {
   return (
