@@ -13,14 +13,21 @@ function App() {
     <Router>
     <div>
         <Nav />
-        <Routes><Route path="/About" element={About} /></Routes>
-        <Routes><Route path="/Annual" element={Annual} /></Routes>
-        <Routes><Route path="/Events" element={Events} /></Routes>
-        <Routes><Route path="/Signup" element={Signup} /></Routes>
-        <Routes><Route path="/Signin" element={Signin} /></Routes>
+        <Routes><Route path="/" element={<Home />} /></Routes>
+        <Routes><Route path="/About" element={<About />} /></Routes>
+        <Routes><Route path="/Annual" element={<Annual />} /></Routes>
+        <Routes><Route path="/Events" element={<Events />} /></Routes>
+        <Routes><Route path="/Signup" element={<Signup />} /></Routes>
+        <Routes><Route path="/Signin" element={<Signin />} /></Routes>
     </div>
     </Router>
   );
 }
+
+const Home = () => (
+  <div>
+    <h1>Home Page</h1>
+  </div>
+);
 
 export default App;
