@@ -1,0 +1,26 @@
+.Form {
+    background-color: skyblue;
+    max-width: 500px;
+    text-align: center;
+    padding: 50px;
+    border: 8px solid blue;
+    border-radius: 6px;
+    margin: 0 auto;
+    height: 282px;
+}
+
+.Form .Username,
+.Form .Password {
+    background: #eee8aa;
+    width: 100%;
+    color: black;
+    border-radius: 4px;
+}
+
+.Form .Button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px lightslategray;
+}
