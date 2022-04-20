@@ -6,8 +6,11 @@ import Annual from './Annual';
 import Events from './Events';
 import Signup from './Signup';
 import Signin from './Signin';
+import Team from './Team';
+import Blogs from './Blog'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import "./hero.css";
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
         <Routes><Route path="/About" element={<About />} /></Routes>
         <Routes><Route path="/Annual" element={<Annual />} /></Routes>
         <Routes><Route path="/Events" element={<Events />} /></Routes>
+        <Routes><Route path="/Team" element={<Team />} /></Routes>
+        <Routes><Route path="/Blogs" element={<Blogs />} /></Routes>
         <Routes><Route path="/Signup" element={<Signup />} /></Routes>
         <Routes><Route path="/Signin" element={<Signin />} /></Routes>
     </div>
@@ -37,6 +42,7 @@ const Home = () => (
        </h2> 
     </div>
 </section>
+<Footer />
 </div>
 );
 
