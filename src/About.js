@@ -18,6 +18,8 @@ export default function About() {
                           some bootstrap. This is a nonsense practice exercise. 
                           I learned to make single page React apps. 
                           I wanted the experience of making something with multiple pages.</p>
+                          <p>It took me a few weeks to get this to deploy. I watched <a href="https://youtu.be/Law7wfdg_ls">Dev Ed</a> and finally made this experiment work.
+                          </p>
                     </section>
                     </div>
                     <div className="col">
